@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    margin: 0%;
+    line-height: 1.2;
+    font-family: none;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 5%;
+    font-size: min(4vw, 20px);
+    box-shadow: 0px 0px 6px 2px black;
+    background-color: white;
+}
+
+.creat {
+    max-width: 500px;
+}
+.btn {
+    position: relative;
+    font-size: min(3vw, 20px);
+    max-width: 100px;
+}
+
+.form-control {
+    font-size: min(3vw, 18px);
+    margin-bottom: 2%;
+    text-align: center;
+}
+.container-fluid {
+    background-color: #007bff;
+    text-align: center;
+    font-size: min(3vw, 25px);
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: bold;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.to-create:hover {
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+p {
+    display: inline;
+    color: red;
+    font-weight: lighter;
+}
+
+.succes {
+    color: green !important;
+}
+
+.checkbx {
+    width: 5vw;
+    margin: 0 !important;
+}
+
+.checkbx_label{
+    margin: 0;
+}
+
+li{
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}

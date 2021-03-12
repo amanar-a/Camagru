@@ -1,0 +1,201 @@
+body {
+    width: 100%;
+    margin: 0%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container-fluid {
+    text-align: center;
+    font-size: min(3vw, 25px);
+    
+}
+
+.parent{
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 0px 5px 0.55px;
+    border-radius: 2%;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+@media screen and (min-width: 1000px) {
+    .parent{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
+.child1{
+    width: 100%;
+    background-color: rgb(177, 177, 241);
+    color: white;
+    font-size: min(6vw,18px);
+    display: flex;
+}
+
+.child2{
+    width: 100%;
+    font-size: min(2vw,15px);
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    display: inline;
+    margin: 0;
+}
+.child3{
+    width: 100%;
+    background-color: rgb(177, 177, 241);
+    font-size: min(3vw,15px);
+}
+
+.menu *{
+   float: left;
+   margin-left: 1%;
+}
+
+.invi {
+    display: none;
+}
+
+.ico {
+    position: relative;
+    color: white;
+    cursor: pointer;
+    height: auto;
+}
+
+.ico:hover {
+    border-bottom: solid 1px blue;
+}
+
+.lab {
+    float: right;
+    margin-left: 68%;
+}
+
+.form-control {
+    font-size: min(3vw, 18px);
+    margin-bottom: 2%;
+    text-align: center;
+    width: 75%;
+}
+
+.btn_ {
+    position: relative;
+    max-width: 172px;
+}
+
+.btn-primary {
+    width: 21%;
+    font-size: min(2vw,15px);
+}
+
+.child3-p {
+    margin-left: 55%;
+    font-size: min(2vw,11.5px);
+    color: rgb(99, 87, 87);
+    font-weight: lighter;
+}
+
+.like {
+    width: 2vw;
+    position: relative;
+    right: 20%;
+}
+
+.bleu-like {
+    cursor: pointer;
+    color: blue;
+}
+
+.white-like {
+    cursor: pointer;
+    color: white;
+}
+
+.comment {
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.child3 button {
+    text-align: left;
+}
+
+.child4 {
+    width: 100%;
+}
+
+.p_name{
+    text-decoration: underline;
+    font-size: min(3vw,16px);
+}
+
+.p_comment{
+    font-size: min(3vw,12px);
+    margin-left: 4%;
+}
+
+.div_comment {
+    margin-top: 2%;
+    word-break: break-word;
+    position: relative;
+    padding-left: 2%;
+}
+
+.post_date{
+    font-size: min(2vw,12px);
+    color: grey;
+    font-weight: lighter;
+}
+
+.change_pg{
+   display: flex;
+   justify-content: center;
+}
+
+.nb {
+    width: fit-content;
+    font-size: min(3vw, 10px);
+}
+
+.child3-div1 {
+    float: left;
+    width: 30%;
+}
+
+.child3-div2 {
+    width: 96%;
+    text-align: end;
+ }
+
+ .child1-div {
+     display: inline;
+ }
+
+ .child1-img {
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 10vw;
+    max-width: 80px;
+ }
+
+ .name {
+    display: flex;
+    flex-flow: column;
+ }
+
+ .upnav{
+    background-color: #007bff;
+    width: 100%;
+    color: white;
+    top: 0;
+    position: fixed;
+ }

@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    margin: 0%;
+    line-height: 1;
+    font-family: none;
+    font-size: min(3vw, 25px);
+}
+
+.container-fluid {
+    text-align: center;
+    
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: bold;
+    position: fixed;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 650px;
+    padding: 15px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px 4px black;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.pic {
+    width: 100%;
+    border: grey solid 2px;
+}
+
+.histo {
+    width: 100%;
+    max-width: 650px;
+    height: 300px;
+    background-color: white;
+    margin-top: 40px;
+    border: white 10px solid;
+    box-shadow: 0px 0px 5px 5px;
+    border-radius: 4%;
+    overflow-y: scroll;
+}
+
+.btn {
+    max-width: 250px;
+}
+
+p {
+    display: inline;
+}
+
+.menu *{
+    float: left;
+    margin-left: 1%;
+ }
+ 
+ .invi {
+     display: none;
+ }
+ 
+ .ico {
+     position: relative;
+     color: white;
+     cursor: pointer;
+     height: auto;
+ }
+ 
+ .ico:hover {
+     border-bottom: solid 1px blue;
+ }
+
+ #failed {
+    color: red;
+    display: none;
+ }
+
+ .histo-img {
+     width: 40vw;
+     max-width: 200px;
+ }
+
+ .histo-div {
+     width: 96%;
+     border: solid grey 1px;
+     box-shadow: 0px 0px 2px 0px;
+     margin-top: 1%;
+     margin-left: 1%;
+     float: left;
+ }
+
+ .histo-date {
+    font-size: min(4vw,12px);
+ }
+
+ .size_img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ .filt {
+    max-width: 98px;
+    width: 10vw;
+}
+
+.histo span {
+    display: flex;
+    align-items: center;
+}
+
+.upper_div {
+    background-color: #007bff;
+    line-height: 1.2;
+}
+
+.lab {
+    float: right;
+}
